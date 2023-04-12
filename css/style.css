@@ -14,8 +14,18 @@ body{
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
   /* background: #838383; */
-  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+  /* background: linear-gradient(to bottom, #87ceeb, #ffffff); */
+  background-image: url('/assets/fondo-huellas.jpg');
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }  
+
+
 
 /* Login */
 
@@ -24,7 +34,7 @@ body{
     border: 1px solid #cccccc;
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.225);
-    margin: 10% auto;
+    margin: 8% auto;
     padding: 26px 24px 46px;
     width: 100%;
     max-width: 450px;
@@ -44,7 +54,7 @@ header{
 header > h1{
   text-align: center;
   font-size: 50px;
-  color: #fff;
+  color: #f68522;
   font-weight: 700;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -52,7 +62,7 @@ header > h1{
 header > p{
   text-align: center;
   font-size: 30px;
-  color: #fff;
+  color: #fa9922;
   font-weight: 700;
   text-shadow: 2px 2px 4px #000000;
 }
