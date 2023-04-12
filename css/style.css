@@ -34,7 +34,7 @@ body{
     border: 1px solid #cccccc;
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.225);
-    margin: 8% auto;
+    margin: 5% auto;
     padding: 26px 24px 46px;
     width: 100%;
     max-width: 450px;
@@ -49,6 +49,11 @@ body{
 
 header{
   padding-top: 50px;
+
+}
+
+.contenido{
+  height: 80%;
 }
 
 header > h1{
@@ -65,4 +70,12 @@ header > p{
   color: #fa9922;
   font-weight: 700;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.contenedor, .carrusel{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+
 }
